@@ -1,13 +1,12 @@
 """
 
 Created by: John Hanekom
-
 Date: September 29th, 2022
 
 This program calculates the area of a trapezoid using the inputted numbers.
 
 """
-game.splash("Let's calculate the area trapezoid!")
+game.splash("Let's calculate the area of a trapezoid!")
 top_base = game.ask_for_number("Enter the top base of the trapezoid (cm):")
 bottom_base = game.ask_for_number("Enter the bottom base of the trapezoid (cm):")
 height = game.ask_for_number("Enter the height of the trapezoid (cm):")
